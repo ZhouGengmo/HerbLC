@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# training outputs
+logs/
+checkpoints/
+*.ckpt
+*.safetensors
+
+# Local data and model caches.
+/data
+/.cache
