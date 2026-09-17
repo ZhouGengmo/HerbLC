@@ -4,10 +4,25 @@ __pycache__/
 
 # training outputs
 logs/
+runs/
 checkpoints/
 *.ckpt
 *.safetensors
 
-# Local data and model caches.
-/data
+# data
+/data/*
+!/data/hda/
+/data/hda/*
+!/data/hda/tcm_suite/
+/data/hda/tcm_suite/*
+!/data/hda/tcm_suite/target_seqs.json
+!/data/hda/ethnobotany/
+/data/hda/ethnobotany/*
+!/data/hda/ethnobotany/compound_smiles.json
+!/data/hda/ethnobotany/target_seqs.json
+!/data/hda/ethnobotany/disease_id2name.json
+
+!/data/hti/
+!/data/hti/gene_to_sequence.json
+
 /.cache
